@@ -274,3 +274,11 @@ greet.apply(obj, args); // Output
 
 //Q18 Explain async/await How do they simplify working with promise ?
 //Promises are a fundamental concept in JavaScript for handling asynchronous operations. However, promise chains can become cumbersome and hard to read, especially when dealing with multiple nested promises.
+
+Q19 What are the high order function ? 
+
+High order functions are function that take argument as function 
+for example 
+myfun1(myinnerfun1){
+
+} 
