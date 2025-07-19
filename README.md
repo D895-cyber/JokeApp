@@ -226,7 +226,7 @@ const fetchUserProfile1 = () => {
 };
 //Here, setTimeout delays the execution of the inner function by 2 seconds, simulating a delay like in real-world API calls. After the delay, the Promise is resolved with a user profile object.
 
-//✅ Example of setInterval:
+//Example of setInterval:
 
 //setInterval(() => {
   console.log("This message shows every 3 seconds");
@@ -274,11 +274,3 @@ greet.apply(obj, args); // Output
 
 //Q18 Explain async/await How do they simplify working with promise ?
 //Promises are a fundamental concept in JavaScript for handling asynchronous operations. However, promise chains can become cumbersome and hard to read, especially when dealing with multiple nested promises.
-
-Q19 What are the high order function ? 
-
-High order functions are function that take argument as function 
-for example 
-myfun1(myinnerfun1){
-
-} 
